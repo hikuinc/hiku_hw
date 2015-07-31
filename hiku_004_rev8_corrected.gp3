@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPDProject version="3" oldestCompatibleVersion="3" GPDVersion="4.03.003" lastChange="7/21/2015 8:47:48 PM">
+    <generalProjectSettings/>
+    <chip family="04" type="03" revision="6" friendlyName="GreenPAK 3">
+        <nvmData registerLenght="512">20 1 0 64 99 51 B9 97 18 F FE 99 F6 EC 79 8 41 D0 1 78 1A 1C B E 58 0 0 0 53 18 6 BC 8B BE F9 14 34 25 3 24 E2 B0 26 6C 39 A5 E4 CE 1 49 D0 8A 45 23 2 80 1B 0 0 5A C8 3 0 A5</nvmData>
+        <checksum crc32="0x164D238C" version="0"/>
+        <VDDItem id="0" min="2.6100" max="3.1900">
+            <item id="0" caption="VDD">
+                <graphics pos="(453.37,-495.29)" angle="0" flipping="0" hidden="1"/>
+            </item>
+        </VDDItem>
+        <IOPad id="1" useCaseMode="1">
+            <item id="1" caption="PIN 1">
+                <graphics pos="(0.50,-556.87)" angle="90" flipping="0" hidden="0"/>
+                <textLabel pos="(-18.00,54.50)" angle="-90.00" textColor="#ffff00ff" backgroundColor="#14141464">VCC_USB_DET</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="2" useCaseMode="3">
+            <item id="2" caption="PIN 2">
+                <graphics pos="(-332.89,-398.11)" angle="0" flipping="0" hidden="0"/>
+                <textLabel pos="(-45.00,-33.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">BATT_VOLT_MEASURE</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="3" useCaseMode="2">
+            <item id="3" caption="PIN 3">
+                <graphics pos="(-335.67,-236.11)" angle="0" flipping="0" hidden="0"/>
+                <textLabel pos="(-8.50,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">CPU_INT</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="4" useCaseMode="1">
+            <item id="4" caption="PIN 4">
+                <graphics pos="(-336.00,-165.00)" angle="0" flipping="0" hidden="0"/>
+                <textLabel pos="(-36.50,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">WLAN_POWER_EN</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="5" useCaseMode="3">
+            <item id="5" caption="PIN 5">
+                <graphics pos="(31.00,-142.00)" angle="0" flipping="1" hidden="0"/>
+                <textLabel pos="(-77.50,-13.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">VBATT</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="6" useCaseMode="0">
+            <item id="6" caption="PIN 6">
+                <graphics pos="(0.00,0.00)" angle="0" flipping="0" hidden="1"/>
+            </item>
+        </IOPad>
+        <IOPad id="7" useCaseMode="3">
+            <item id="7" caption="PIN 7">
+                <graphics pos="(30.00,-96.00)" angle="0" flipping="1" hidden="0"/>
+                <textLabel pos="(-16.50,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">VCC_RADIO</textLabel>
+            </item>
+        </IOPad>
+        <item id="8" caption="AGND">
+            <graphics pos="(-171.00,-139.00)" angle="0" flipping="0" hidden="0"/>
+        </item>
+        <item id="9" caption="GND">
+            <graphics pos="(434.93,-560.02)" angle="0" flipping="0" hidden="0"/>
+        </item>
+        <IOPad id="10" useCaseMode="2">
+            <item id="10" caption="PIN 10">
+                <graphics pos="(671.67,-372.85)" angle="0" flipping="1" hidden="0"/>
+                <textLabel pos="(-8.50,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">RESET_L</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="11" useCaseMode="1">
+            <item id="11" caption="PIN 11">
+                <graphics pos="(-336.00,-314.22)" angle="180" flipping="1" hidden="0"/>
+                <textLabel pos="(55.50,48.00)" angle="-180.00" textColor="#ffff00ff" backgroundColor="#14141464">INT_RESET</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="12" useCaseMode="1">
+            <item id="12" caption="PIN 12">
+                <graphics pos="(150.13,-659.62)" angle="270" flipping="1" hidden="0"/>
+                <textLabel pos="(26.00,-48.50)" angle="-270.00" textColor="#ffff00ff" backgroundColor="#14141464">BTN</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="13" useCaseMode="1">
+            <item id="13" caption="PIN 13">
+                <graphics pos="(77.11,-556.87)" angle="270" flipping="1" hidden="0"/>
+                <textLabel pos="(58.00,-18.50)" angle="-270.00" textColor="#ffff00ff" backgroundColor="#14141464">ACC_INT</textLabel>
+            </item>
+        </IOPad>
+        <item id="14" caption="2-bit LUT0/DFF/LATCH0">
+            <graphics pos="(386.96,-259.26)" angle="90" flipping="0" hidden="0"/>
+        </item>
+        <item id="15" caption="2-bit LUT1/DFF/LATCH1">
+            <graphics pos="(483.75,-286.54)" angle="0" flipping="0" hidden="0"/>
+        </item>
+        <item id="16" caption="2-bit LUT2">
+            <graphics pos="(74.09,-343.05)" angle="180" flipping="0" hidden="0"/>
+        </item>
+        <item id="17" caption="2-bit LUT3">
+            <graphics pos="(246.89,-377.33)" angle="90" flipping="0" hidden="0"/>
+        </item>
+        <item id="18" caption="3-bit LUT2">
+            <graphics pos="(582.89,-382.67)" angle="90" flipping="0" hidden="0"/>
+        </item>
+        <item id="19" caption="3-bit LUT3">
+            <graphics pos="(-85.88,-250.12)" angle="270" flipping="0" hidden="0"/>
+        </item>
+        <item id="20" caption="3-bit LUT0/DFF/LATCH2">
+            <graphics pos="(-218.87,-241.38)" angle="180" flipping="0" hidden="0"/>
+        </item>
+        <item id="21" caption="3-bit LUT1/DFF/LATCH3">
+            <graphics pos="(83.88,-425.75)" angle="180" flipping="0" hidden="0"/>
+        </item>
+        <item id="22" caption="3-bit LUT4/Pipe Delay">
+            <graphics pos="(391.89,-379.64)" angle="0" flipping="0" hidden="0"/>
+        </item>
+        <item id="23" caption="A CMP0">
+            <graphics pos="(-150.63,-394.29)" angle="0" flipping="0" hidden="0"/>
+        </item>
+        <item id="24" caption="A CMP1">
+            <graphics pos="(-150.00,-560.00)" angle="0" flipping="0" hidden="1"/>
+        </item>
+        <item id="25" caption="8-bit CNT0/DLY0">
+            <graphics pos="(253.43,-467.10)" angle="0" flipping="0" hidden="0"/>
+        </item>
+        <item id="26" caption="8-bit CNT1/DLY1">
+            <graphics pos="(-27.78,-438.51)" angle="0" flipping="0" hidden="0"/>
+        </item>
+        <item id="27" caption="8-bit CNT3/DLY3">
+            <graphics pos="(248.61,-264.01)" angle="0" flipping="0" hidden="0"/>
+        </item>
+        <item id="28" caption="4-bit LUT0/CNT2/DLY2">
+            <graphics pos="(150.33,-549.56)" angle="90" flipping="0" hidden="0"/>
+        </item>
+        <item id="29" caption="OSC">
+            <graphics pos="(279.38,-566.00)" angle="0" flipping="0" hidden="0"/>
+        </item>
+        <item id="30" caption="P DLY/FILTER">
+            <graphics pos="(12.50,-276.37)" angle="180" flipping="0" hidden="0"/>
+        </item>
+        <item id="31" caption="VREF">
+            <graphics pos="(400.00,-120.00)" angle="0" flipping="0" hidden="1"/>
+        </item>
+        <item id="32" caption="POR">
+            <graphics pos="(-90.00,-503.00)" angle="0" flipping="0" hidden="0"/>
+        </item>
+        <item id="33" caption="BG">
+            <graphics pos="(370.87,-160.50)" angle="0" flipping="0" hidden="1"/>
+        </item>
+        <item id="34" caption="P-FET Power Switch">
+            <graphics pos="(-80.00,-102.00)" angle="0" flipping="0" hidden="0"/>
+        </item>
+        <wire output="115" input="204" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="" wireState="0">
+            <points>(10.00,-126.00); (-111.00,-126.00); (-111.00,-90.00); (-101.00,-90.00)</points>
+        </wire>
+        <wire output="118" input="201" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="" wireState="0">
+            <points>(-10.00,-90.00); (9.00,-90.00)</points>
+        </wire>
+        <wire output="114" input="205" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="AGND" wireState="0">
+            <points>(-150.00,-99.00); (-150.00,-70.00); (-101.00,-70.00)</points>
+        </wire>
+        <wire output="6" input="203" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="" wireState="0">
+            <points>(-276.00,-149.00); (-182.00,-149.00); (-182.00,-80.00); (-101.00,-80.00)</points>
+        </wire>
+        <wire output="2" input="163" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(20.00,-507.00); (20.00,-467.00); (90.00,-467.00); (90.00,-447.00)</points>
+        </wire>
+        <wire output="11" input="164" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(103.00,-507.00); (103.00,-447.00)</points>
+        </wire>
+        <wire output="26" input="183" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(302.00,-362.00); (371.00,-362.00)</points>
+        </wire>
+        <wire output="57" input="184" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(333.00,-452.00); (361.00,-452.00); (361.00,-349.00); (371.00,-349.00)</points>
+        </wire>
+        <wire output="26" input="182" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(302.00,-362.00); (351.00,-362.00); (351.00,-374.00); (371.00,-374.00)</points>
+        </wire>
+        <wire output="98" input="46" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(452.00,-357.00); (462.00,-357.00); (462.00,-332.00); (202.00,-332.00); (202.00,-352.00); (231.00,-352.00)</points>
+        </wire>
+        <wire output="10" input="140" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(176.00,-610.00); (176.00,-585.00)</points>
+        </wire>
+        <wire output="66" input="124" autoRouting="0" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(181.00,-484.00); (181.00,-447.00); (232.00,-447.00)</points>
+        </wire>
+        <wire output="108" input="123" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="" wireState="0">
+            <points>(320.00,-515.00); (320.00,-478.00); (222.00,-478.00); (222.00,-457.00); (232.00,-457.00)</points>
+        </wire>
+        <wire output="66" input="47" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(181.00,-484.00); (181.00,-372.00); (231.00,-372.00)</points>
+        </wire>
+        <wire output="88" input="58" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(549.00,-277.00); (558.00,-277.00); (558.00,-338.00); (558.00,-338.00); (558.00,-354.00); (567.00,-354.00)</points>
+        </wire>
+        <wire output="97" input="59" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(452.00,-367.00); (567.00,-367.00)</points>
+        </wire>
+        <wire output="66" input="60" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(181.00,-484.00); (181.00,-393.00); (547.00,-393.00); (547.00,-381.00); (567.00,-381.00)</points>
+        </wire>
+        <wire output="31" input="10" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(638.00,-367.00); (651.00,-367.00)</points>
+        </wire>
+        <wire output="87" input="158" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(442.00,-244.00); (453.00,-244.00); (453.00,-271.00); (463.00,-271.00)</points>
+        </wire>
+        <wire output="66" input="165" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(181.00,-484.00); (181.00,-474.00); (134.00,-474.00); (134.00,-474.00); (117.00,-474.00); (117.00,-447.00)</points>
+        </wire>
+        <wire output="99" input="113" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-8.00,-267.00); (-122.00,-267.00); (-122.00,-325.00); (-128.00,-325.00); (-128.00,-336.00)</points>
+        </wire>
+        <wire output="3" input="111" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="" wireState="0">
+            <points>(-273.00,-383.00); (-172.00,-383.00)</points>
+        </wire>
+        <wire output="53" input="159" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-86.00,-369.00); (63.00,-369.00); (63.00,-457.00); (212.00,-457.00); (212.00,-281.00); (463.00,-281.00)</points>
+        </wire>
+        <wire output="90" input="45" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(103.00,-376.00); (104.00,-364.00)</points>
+        </wire>
+        <wire output="25" input="185" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(94.00,-293.00); (94.00,-267.00); (68.00,-267.00)</points>
+        </wire>
+        <wire output="0" input="156" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="GND" wireState="1">
+            <points/>
+        </wire>
+        <wire output="83" input="126" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-72.00,-463.00); (-72.00,-418.00); (-49.00,-418.00)</points>
+        </wire>
+        <wire output="58" input="44" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(52.00,-423.00); (74.00,-423.00); (74.00,-374.00); (84.00,-374.00); (84.00,-364.00)</points>
+        </wire>
+        <wire output="25" input="196" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(94.00,-293.00); (94.00,-244.00); (228.00,-244.00)</points>
+        </wire>
+        <wire output="112" input="157" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(329.00,-254.00); (371.00,-254.00)</points>
+        </wire>
+        <wire output="99" input="61" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-8.00,-267.00); (-20.00,-267.00); (-20.00,-249.00); (-31.00,-249.00)</points>
+        </wire>
+        <wire output="25" input="62" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(94.00,-293.00); (94.00,-236.00); (-31.00,-236.00)</points>
+        </wire>
+        <wire output="89" input="2" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-240.00,-231.00); (-276.00,-231.00)</points>
+        </wire>
+        <wire output="89" input="160" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-240.00,-231.00); (-250.00,-231.00); (-250.00,-211.00); (-143.00,-211.00); (-143.00,-237.00); (-154.00,-237.00)</points>
+        </wire>
+        <wire output="32" input="161" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-102.00,-236.00); (-132.00,-236.00); (-132.00,-227.00); (-154.00,-227.00)</points>
+        </wire>
+        <wire output="66" input="63" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(181.00,-484.00); (181.00,-222.00); (-31.00,-222.00)</points>
+        </wire>
+        <wire output="9" input="162" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-276.00,-310.00); (-196.00,-310.00); (-196.00,-262.00)</points>
+        </wire>
+    </chip>
+    <emulatorConfiguration version="0" friendlyName="GreenPAK Universal Tool">
+        <settings>
+            <autoApply value="0"/>
+        </settings>
+        <lastConfiguration>
+            <SaveEmulator Name="Unknown">
+                <PowerSwitch internalPower="1" externalPower="0"/>
+                <ExpansionConnector>1:0;2:0;3:0;4:0;5:0;6:0;7:0;8:0;9:0;10:0;11:-1;12:0;13:0;14:0;15:0;16:0;17:0;18:0;19:0;20:0</ExpansionConnector>
+                <TestPoints>
+                    <TPC ID="1" Type="8">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="81" GlobalLink="0"/>
+                        <GeneratorOpt GenType="5">
+                            <constantVoltageGenerator v="2214">
+                                <abstractGenerator repeat="0" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="1" pauseState="0" prestartState="1" outputState="0" prestartDelay="0" endState="1" link="0"/>
+                            </constantVoltageGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="2" Type="6">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="87" GlobalLink="1"/>
+                        <ButtonSettings UpSide="1" DownSide="0" LatchMode="0" DefaultConnection="1" ConnectedSide="1"/>
+                    </TPC>
+                    <TPC ID="3" Type="8">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="69" GlobalLink="0"/>
+                        <GeneratorOpt GenType="5">
+                            <constantVoltageGenerator v="1463">
+                                <abstractGenerator repeat="0" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="1" pauseState="0" prestartState="0" outputState="0" prestartDelay="0" endState="0" link="0"/>
+                            </constantVoltageGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="4" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="82" GlobalLink="0"/>
+                    </TPC>
+                    <TPC ID="5" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="84" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="6" Type="6">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="89" GlobalLink="1"/>
+                        <ButtonSettings UpSide="3" DownSide="0" LatchMode="0" DefaultConnection="1" ConnectedSide="1"/>
+                    </TPC>
+                    <TPC ID="7" Type="2">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="85" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="8" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="73" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="9" Type="5">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="79" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="10" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="80" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="11" Type="3">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="65" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="12" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="83" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="13" Type="6">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="68" GlobalLink="1"/>
+                        <ButtonSettings UpSide="4" DownSide="0" LatchMode="0" DefaultConnection="0" ConnectedSide="0"/>
+                    </TPC>
+                    <TPC ID="14" Type="6">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="70" GlobalLink="1"/>
+                        <ButtonSettings UpSide="4" DownSide="0" LatchMode="0" DefaultConnection="0" ConnectedSide="0"/>
+                    </TPC>
+                    <TPC ID="15" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="71" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="16" Type="6">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="72" GlobalLink="1"/>
+                        <ButtonSettings UpSide="1" DownSide="4" LatchMode="0" DefaultConnection="1" ConnectedSide="1"/>
+                    </TPC>
+                    <TPC ID="17" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="74" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="18" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="75" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="19" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="76" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="20" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="59" GlobalLink="1"/>
+                    </TPC>
+                </TestPoints>
+            </SaveEmulator>
+        </lastConfiguration>
+        <savedConfigurations>
+            <SaveEmulator Name="hiku-004-test">
+                <PowerSwitch internalPower="1" externalPower="0"/>
+                <ExpansionConnector>1:0;2:0;3:0;4:0;5:0;6:0;7:0;8:0;9:0;10:0;11:-1;12:0;13:0;14:0;15:0;16:0;17:0;18:0;19:0;20:0</ExpansionConnector>
+                <TestPoints>
+                    <TPC ID="1" Type="8">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="81" GlobalLink="0"/>
+                        <GeneratorOpt GenType="5">
+                            <constantVoltageGenerator v="2214">
+                                <abstractGenerator repeat="0" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="10000" pauseState="0" prestartState="1" outputState="0" prestartDelay="0" endState="1" link="0"/>
+                            </constantVoltageGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="2" Type="3">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="87" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="3" Type="8">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="69" GlobalLink="1"/>
+                        <GeneratorOpt GenType="5">
+                            <constantVoltageGenerator v="886">
+                                <abstractGenerator repeat="0" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="10000" pauseState="0" prestartState="0" outputState="0" prestartDelay="0" endState="0" link="1"/>
+                            </constantVoltageGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="4" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="82" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(5000,1); (5000,0)</levels>
+                                <abstractGenerator repeat="0" repeatCount="0" shownPeriod="0" startPoint="0" stopPoint="10000" pauseState="0" prestartState="0" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="5" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="84" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="6" Type="2">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="89" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="7" Type="2">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="85" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="8" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="73" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="9" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="79" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="10" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="80" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="11" Type="3">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="65" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="12" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="83" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="13" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="68" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="14" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="70" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="15" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="71" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="16" Type="3">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="72" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="17" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="74" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="18" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="75" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="19" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="76" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="20" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="59" GlobalLink="1"/>
+                    </TPC>
+                </TestPoints>
+            </SaveEmulator>
+            <SaveEmulator Name="hiku-004">
+                <PowerSwitch internalPower="1" externalPower="0"/>
+                <ExpansionConnector>1:0;2:0;3:0;4:0;5:0;6:0;7:0;8:0;9:0;10:0;11:-1;12:0;13:0;14:0;15:0;16:0;17:0;18:0;19:0;20:0</ExpansionConnector>
+                <TestPoints>
+                    <TPC ID="1" Type="8">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="81" GlobalLink="0"/>
+                        <GeneratorOpt GenType="5">
+                            <constantVoltageGenerator v="2214">
+                                <abstractGenerator repeat="0" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="1" pauseState="0" prestartState="1" outputState="0" prestartDelay="0" endState="1" link="0"/>
+                            </constantVoltageGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="2" Type="6">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="87" GlobalLink="1"/>
+                        <ButtonSettings UpSide="1" DownSide="0" LatchMode="0" DefaultConnection="1" ConnectedSide="1"/>
+                    </TPC>
+                    <TPC ID="3" Type="8">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="69" GlobalLink="1"/>
+                        <GeneratorOpt GenType="5">
+                            <constantVoltageGenerator v="758">
+                                <abstractGenerator repeat="0" repeatCount="2" shownPeriod="1" startPoint="0" stopPoint="200000" pauseState="0" prestartState="1" outputState="0" prestartDelay="0" endState="1" link="1"/>
+                            </constantVoltageGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="4" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="82" GlobalLink="0"/>
+                    </TPC>
+                    <TPC ID="5" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="84" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="6" Type="6">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="89" GlobalLink="1"/>
+                        <ButtonSettings UpSide="3" DownSide="0" LatchMode="0" DefaultConnection="1" ConnectedSide="1"/>
+                    </TPC>
+                    <TPC ID="7" Type="2">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="85" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="8" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="73" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="9" Type="5">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="79" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="10" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="80" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="11" Type="3">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="65" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="12" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="83" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="13" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="68" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="14" Type="6">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="70" GlobalLink="1"/>
+                        <ButtonSettings UpSide="4" DownSide="0" LatchMode="0" DefaultConnection="0" ConnectedSide="0"/>
+                    </TPC>
+                    <TPC ID="15" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="71" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="16" Type="6">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="72" GlobalLink="1"/>
+                        <ButtonSettings UpSide="1" DownSide="4" LatchMode="0" DefaultConnection="1" ConnectedSide="1"/>
+                    </TPC>
+                    <TPC ID="17" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="74" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="18" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="75" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="19" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="76" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="20" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="59" GlobalLink="1"/>
+                    </TPC>
+                </TestPoints>
+            </SaveEmulator>
+        </savedConfigurations>
+    </emulatorConfiguration>
+    <projectDataFields>
+        <intDataField name="Silego&#10;Part Number:" id="1" value="6"/>
+        <textLineDataField name="Customer&#10;Name:" id="2" text="hiku"/>
+        <textLineDataField name="Customer&#10;Project Name:" id="3" text="hiku-004"/>
+        <textLineDataField name="Customer&#10;Project Number:" id="4" text="hiku-004-01"/>
+        <textLineDataField name="Customer&#10;Version Number:" id="5" text="1.0"/>
+        <multiTextLineDataField>
+            <textLineDataField name="Notes:" id="6" text=""/>
+        </multiTextLineDataField>
+    </projectDataFields>
+</GPDProject>
